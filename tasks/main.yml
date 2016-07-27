@@ -12,6 +12,11 @@
   tags:
     - bbb_dependencies
 
+- name: "Add repository for PHP 7.0."
+  apt_repository: 
+    repo="ppa:ondrej/php" 
+    update_cache=yes
+
 - name: apt_repository required packages are present
   apt: name=python-apt state=present
   tags:
