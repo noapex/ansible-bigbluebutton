@@ -2,7 +2,7 @@
 
 set -e
 
-export ANSIBLE_ROLES_PATH='../'
+export ANSIBLE_ROLES_PATH=$(dirname $(pwd))
 INVENTORY='localhost,'
 CONNECTION='local'
 
