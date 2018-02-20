@@ -1,5 +1,5 @@
 ---
-bbb_apt_key: '328BD16D'
+bbb_apt_key: 'FAB46452'
 
 #Repositories
 bbb_apt_repo_url: 'http://ubuntu.bigbluebutton.org/trusty-1-0/'
