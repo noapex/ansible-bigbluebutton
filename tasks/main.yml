@@ -51,12 +51,6 @@
     - multiverse_repositories
     - repositories
 
-- name: libreoffice ppa is enabled
-  apt_repository: repo='{{ libreoffice_ppa }}'
-  tags:
-    - libreoffice_repositories
-    - repositories
-
 - name: ffmpeg ppa is enabled
   apt_repository: repo='{{ ffmpeg_ppa }}'
   tags:
