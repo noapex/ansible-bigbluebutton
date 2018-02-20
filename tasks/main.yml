@@ -51,12 +51,6 @@
     - multiverse_repositories
     - repositories
 
-- name: ffmpeg ppa is enabled
-  apt_repository: repo='{{ ffmpeg_ppa }}'
-  tags:
-    - ffmpeg_repositories
-    - repositories
-
 - name: BigBlueButton repo is enabled
   apt_repository: repo={{ item }} state=present
   with_items:
